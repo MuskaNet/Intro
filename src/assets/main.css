@@ -1,4 +1,9 @@
 @import url('@assets/webkit/scrollbar.css');
+@import url('@assets/chillax.css');
+
+* {
+  font-family: 'Chillax-Variable', sans-serif;
+}
 
 h1,
 h2,
