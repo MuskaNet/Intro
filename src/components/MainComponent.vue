@@ -1,6 +1,6 @@
 <template>
     <div class="box first-screen-box">
-        <h1>Muska Network</h1>
+        <h1 style="color: white;">Muska Network</h1>
         <mdui-card class="links-button-card">
             <mdui-button href="https://ami.muska.zip" target="_blank">
                 <mdui-icon-account-circle></mdui-icon-account-circle>
@@ -12,7 +12,7 @@
                 <mdui-icon-link></mdui-icon-link>
             </mdui-button>
         </mdui-card>
-        <p>{{ yiyan }}</p>
+        <p style="color: white;">{{ yiyan }}</p>
     </div>
 </template>
 
