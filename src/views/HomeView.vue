@@ -46,7 +46,7 @@ function displayImage(event) {
 .background-image {
   position: fixed;
   z-index: -1;
-  filter: brightness(60%);
+  filter: brightness(45%);
 }
 
 .first-screen-box {
