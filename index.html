@@ -1,29 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muska Network</title>
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muska Network</title>
-  <style>
-    .sakura {
-      pointer-events: none !important;
-      position: fixed !important;
-    }
-  </style>
-</head>
+    <link rel="stylesheet" href="/css/toastify.css" />
+    <link rel="stylesheet" href="/css/sakura.min.css" />
+    <style>
+      .sakura {
+        pointer-events: none !important;
+        position: fixed !important;
+      }
+    </style>
 
-<body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.js"></script>
-  <script>
-    setInterval(() => {
-      let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      let htmlElement = document.querySelector('html');
-      isDarkMode ? htmlElement.classList.add('mdui-theme-dark') : htmlElement.classList.remove('mdui-theme-dark');
-    })
-  </script>
-</body>
+    <script src="/js/sakura.min.js"></script>
+    <script src="/js/toastify.js"></script>
+    <script src="/js/clickEffect.js"></script>
+    <script src="/js/devtoolsChecker.js"></script>
+  </head>
 
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script>
+      setInterval(() => {
+        let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+        let htmlElement = document.querySelector('html')
+        isDarkMode
+          ? htmlElement.classList.add('mdui-theme-dark')
+          : htmlElement.classList.remove('mdui-theme-dark')
+      })
+    </script>
+    <script src="/js/init.js"></script>
+  </body>
 </html>
