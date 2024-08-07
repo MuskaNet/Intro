@@ -17,9 +17,19 @@
                 How Tailscale assigns IP addresses
             </a>
         </p>
+        <h2>Advertised Routes</h2>
+        <p>
+            <h3>IPv4</h3>
+            <ul>
+                <li>10.10.0.0/24 - by Muska-Ami@github</li>
+            </ul>
+            <h3>IPv6</h3>
+            Have no any route yet
+            <!-- <p></p> -->
+        </p>
         <h2>Relay Server List</h2>
         <p>
-        <table>
+        <table style="min-width: 600px; overflow-x: scroll;">
             <thead>
                 <tr>
                     <th>ID</th>

@@ -17,6 +17,9 @@
       <mdui-button href="https://blog.muska.zip/links" target="_blank">
         <mdui-icon-link></mdui-icon-link>
       </mdui-button>
+      <mdui-button href="https://github.com/MuskaNet" target="_blank">
+        <logo-github-icon style="margin-top: 5px" w="24px" h="24px"></logo-github-icon>
+      </mdui-button>
     </mdui-card>
     <p style="color: white">{{ yiyan }}</p>
   </div>
