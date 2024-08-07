@@ -17,10 +17,11 @@
         How Tailscale assigns IP addresses
       </a>
     </p>
-    <h2>Advertised Routes</h2>
+    <h2>Allocated IPs</h2>
     <h3>IPv4</h3>
     <ul>
-      <li>10.10.0.0/24 - by Muska-Ami@github</li>
+      <li>10.10.0.0/16 - by Muska-Ami@github</li>
+      <li>10.11.0.0/16 - by 114514-homo-lab@github</li>
     </ul>
     <h3>IPv6</h3>
     Have no any route yet
