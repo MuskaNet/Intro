@@ -26,3 +26,21 @@ h6 {
 .❤ {
   color: red;
 }
+
+.code {
+  width: 100%;
+  padding: 1rem;
+  padding-bottom: 0;
+  background-color: rgb(var(--mdui-color-on-tertiary));
+  overflow-x: auto;
+  transform: translateX(-1rem);
+  border-radius: 5px;
+}
+
+.center-flex {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}

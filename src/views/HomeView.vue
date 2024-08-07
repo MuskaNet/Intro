@@ -20,7 +20,13 @@
     </mdui-card>
     <p style="color: white">{{ yiyan }}</p>
   </div>
-  <MainProjectListComponent />
+  <div class="center-flex">
+    <h2 style="margin: auto; color: white">Projects</h2>
+    <MainProjectListComponent />
+  </div>
+  <div class="center-flex">
+    <AboutComponent />
+  </div>
 </template>
 
 <script setup>
@@ -32,6 +38,7 @@ import '@mdui/icons/link.js'
 
 import hitokoto from '@scripts/hitokoto'
 import MainProjectListComponent from '@components/MainProjectListComponent.vue'
+import AboutComponent from '@/components/AboutComponent.vue'
 
 let yiyan = ref('')
 
@@ -64,6 +71,7 @@ function displayImage(event) {
   width: 2rem;
   min-width: 2rem;
   margin-inline: 1rem;
+  margin-top: 3px;
 }
 
 h1 {

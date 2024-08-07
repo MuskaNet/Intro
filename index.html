@@ -1,38 +1,44 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muska Network</title>
 
-    <link rel="stylesheet" href="/css/toastify.css" />
-    <link rel="stylesheet" href="/css/sakura.min.css" />
-    <style>
-      .sakura {
-        pointer-events: none !important;
-        position: fixed !important;
-      }
-    </style>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muska Network</title>
 
-    <script src="/js/sakura.min.js"></script>
-    <script src="/js/toastify.js"></script>
-    <script src="/js/clickEffect.js"></script>
-    <script src="/js/devtoolsChecker.js"></script>
-  </head>
+  <link rel="stylesheet" href="/css/toastify.css" />
+  <link rel="stylesheet" href="/css/sakura.min.css" />
+  <style>
+    .sakura {
+      pointer-events: none !important;
+      position: fixed !important;
+    }
+  </style>
 
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-    <script>
-      setInterval(() => {
-        let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
-        let htmlElement = document.querySelector('html')
-        isDarkMode
-          ? htmlElement.classList.add('mdui-theme-dark')
-          : htmlElement.classList.remove('mdui-theme-dark')
-      })
-    </script>
-    <script src="/js/init.js"></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script src="/js/sakura.min.js"></script>
+  <script src="/js/toastify.js"></script>
+  <script src="/js/clickEffect.js"></script>
+  <script src="/js/devtoolsChecker.js"></script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+  <script>
+    // 自动切换深浅主题
+    setInterval(() => {
+      let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+      let htmlElement = document.querySelector('html')
+      isDarkMode
+        ? htmlElement.classList.add('mdui-theme-dark')
+        : htmlElement.classList.remove('mdui-theme-dark')
+    })
+  </script>
+  <script src="/js/init.js"></script>
+</body>
+
 </html>
