@@ -9,7 +9,7 @@
   <div class="mdui-prose logo-list" style="margin: 2rem">
     <h3>宽Logo</h3>
     <img
-      style="max-width: 600px"
+      class="wide-logo"
       src="https://apac-cloudflare-r2.img.1l1.icu/2024/08/07/66b3487d466ed.webp"
     />
     <h3>方正Logo</h3>
@@ -42,5 +42,15 @@ const router = useRouter()
 }
 .logo-list img {
   margin: 1rem;
+}
+
+.wide-logo {
+  min-width: 200px;
+  max-width: 600px;
+}
+@media screen and (max-width: 770px) {
+  .wide-logo {
+    max-width: 100%;
+  }
 }
 </style>
