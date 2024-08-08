@@ -20,8 +20,8 @@
         </ul>
         <pre class="code">
 MNTER:          MUSKA-MNT
-ADMIN-C:        MUSKA-DN42
-TECH-C:         MUSKA-DN42
+ADMIN-C:        MUSKA-AMI-DN42
+TECH-C:         MUSKA-AMI-DN42
 AUTH:           pgp-fingerprint 335221E5DC90373604149C608C7736197D476704
         </pre>
         <span>For abuse report and technology support, please contact <b>ADMIN-C</b></span>
