@@ -17,6 +17,10 @@ const routes = [
   {
     path: '/global-network',
     component: () => import('@views/GlobalNetwork.vue')
+  },
+  {
+    path: '/brand',
+    component: () => import('@views/AboutBrand.vue')
   }
 ]
 

@@ -1,9 +1,8 @@
 <template>
   <mdui-bottom-app-bar class="footer">
-    <p>
-      Copyright © {{ nowYear }} Muska Network. All right reseved.
-      <br />
-      Made with <span class="❤">❤</span>.
+    <p class="mdui-prose">
+      Copyright © {{ nowYear }} Muska Network. All rights reseved.<br />
+      Made with <span class="❤">❤</span>. | <router-link to="/brand">Brand</router-link>
     </p>
   </mdui-bottom-app-bar>
 </template>
