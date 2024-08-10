@@ -24,8 +24,7 @@
       <li>10.11.0.0/16 - by 114514-homo-lab@github</li>
     </ul>
     <h3>IPv6</h3>
-    Have no any route yet
-    <!-- <p></p> -->
+    <p>Have no any route yet</p>
     <h2>Relay Server List</h2>
     <div style="width: 100%; overflow-y: scroll">
       <table style="min-width: 1000px">

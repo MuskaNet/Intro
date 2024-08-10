@@ -17,7 +17,7 @@ import progressbar from '@scripts/progressbar'
 
 let loading = ref(true)
 
-watch(progressbar.loading, (val) => ((loading.value = val)))
+watch(progressbar.loading, (val) => (loading.value = val))
 </script>
 
 <style scoped>
