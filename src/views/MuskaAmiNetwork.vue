@@ -89,13 +89,10 @@
           </tr>
           <tr>
             <td>907</td>
-            <td>Korea, Seoul</td>
-            <td>20M Upload / 20M Dload</td>
+            <td>Japan, Tokyo</td>
+            <td>1000M Upload / 1000M Dload</td>
             <td>IPv4 + IPv6</td>
-            <td>
-              IPv6 provide by Securebit AG Tunnelbroker<br />
-              Tunnel Server Location: Germany, Dusseldorf
-            </td>
+            <td></td>
           </tr>
         </tbody>
       </table>
