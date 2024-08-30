@@ -32,7 +32,7 @@
           <tr>
             <th>ID</th>
             <th>Location</th>
-            <th>Bandwidth (Mbps)</th>
+            <th>Bandwidth (bit per second)</th>
             <th>Network Stack</th>
             <th>Note</th>
           </tr>
@@ -61,15 +61,15 @@
           </tr>
           <tr>
             <td>903</td>
-            <td>Unite States, Los Angles</td>
-            <td>10M Upload / 10M Dload</td>
-            <td>IPv4</td>
+            <td>Unite States, Las Vegas, Nevada</td>
+            <td>10G Upload / 10G Dload</td>
+            <td>IPv4 + IPv6</td>
             <td></td>
           </tr>
           <tr>
             <td>904</td>
             <td>中国, 湖北-崇阳</td>
-            <td>100M Upload / 1000M Dload</td>
+            <td>100M Upload / 1G Dload</td>
             <td>IPv4</td>
             <td></td>
           </tr>
@@ -90,7 +90,7 @@
           <tr>
             <td>907</td>
             <td>Japan, Tokyo</td>
-            <td>1000M Upload / 1000M Dload</td>
+            <td>1G Upload / 1G Dload</td>
             <td>IPv4 + IPv6</td>
             <td></td>
           </tr>
