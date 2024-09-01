@@ -94,6 +94,13 @@
             <td>IPv4 + IPv6</td>
             <td></td>
           </tr>
+          <tr>
+            <td>908</td>
+            <td>中国, 重庆</td>
+            <td>50M Upload / 50M Dload(IPv4) | 300M Upload / 300M Dload (IPv6)</td>
+            <td>IPv4 + IPv6</td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </div>
