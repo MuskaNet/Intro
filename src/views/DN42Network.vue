@@ -30,7 +30,7 @@ AUTH:           pgp-fingerprint 335221E5DC90373604149C608C7736197D476704
           <tr>
             <th>Type</th>
             <th>Location</th>
-            <th>Bandwidth (Mbps)</th>
+            <th>Bandwidth (bit peer second)</th>
             <th>Network Stack</th>
             <th>Accept peering</th>
             <th>Note</th>
@@ -47,8 +47,8 @@ AUTH:           pgp-fingerprint 335221E5DC90373604149C608C7736197D476704
           </tr>
           <tr>
             <td>BACKBONE</td>
-            <td>Hongkong</td>
-            <td>5000M Upload / 5000M Dload</td>
+            <td>中国香港 Hongkong</td>
+            <td>5G Upload / 5G Dload</td>
             <td>IPv4 + IPv6</td>
             <td>Yes</td>
             <td></td>
