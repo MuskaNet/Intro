@@ -104,7 +104,7 @@
           <tr>
             <td>909</td>
             <td>Singapore</td>
-            <td>1000M Upload / 1000M Dload</td>
+            <td>1G Upload / 1G Dload</td>
             <td>IPv4 + IPv6</td>
             <td></td>
           </tr>
