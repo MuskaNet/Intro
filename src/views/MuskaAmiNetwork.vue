@@ -20,6 +20,7 @@
     <h2>Allocated IPs</h2>
     <h3>IPv4</h3>
     <ul>
+      <li>10.0.0.0/24 - by Muska-Ami@github</li>
       <li>10.10.0.0/16 - by Muska-Ami@github</li>
       <li>10.11.0.0/16 - by 114514-homo-lab@github</li>
     </ul>
