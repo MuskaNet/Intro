@@ -48,10 +48,10 @@
           </tr>
           <tr>
             <td>901</td>
-            <td>中国, 湖北-武汉</td>
-            <td>10M Upload / 10M Dload</td>
-            <td>IPv4</td>
-            <td></td>
+            <td>-</td>
+            <td>- / -</td>
+            <td>-</td>
+            <td>[Removed]</td>
           </tr>
           <tr>
             <td>902</td>
