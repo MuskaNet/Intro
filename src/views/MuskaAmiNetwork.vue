@@ -98,7 +98,7 @@
           <tr>
             <td>908</td>
             <td>中国, 重庆</td>
-            <td>130M Upload / 130M Dload(IPv4) | 300M Upload / 300M Dload (IPv6)</td>
+            <td>130M Upload / 130M Dload (IPv4) | 300M Upload / 300M Dload (IPv6)</td>
             <td>IPv4 + IPv6</td>
             <td></td>
           </tr>
