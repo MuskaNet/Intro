@@ -10,17 +10,17 @@
     <h3>宽Logo</h3>
     <img
       class="wide-logo"
-      src="https://apac-cloudflare-r2.img.1l1.icu/2024/08/07/66b3487d466ed.webp"
+      src="https://apac-cloudflare-r2-img.1l1.icu/2024/08/07/66b3487d466ed.webp"
     />
     <h3>方正Logo</h3>
     <h4>WebP</h4>
     <img
       style="max-width: 200px"
-      src="https://apac-cloudflare-r2.img.1l1.icu/2024/08/08/66b43f7f3cfb6.webp"
+      src="https://apac-cloudflare-r2-img.1l1.icu/2024/08/08/66b43f7f3cfb6.webp"
     />
     <img
       style="max-width: 200px"
-      src="https://apac-cloudflare-r2.img.1l1.icu/2024/08/08/66b4478c6cad2.webp"
+      src="https://apac-cloudflare-r2-img.1l1.icu/2024/08/08/66b4478c6cad2.webp"
     />
     <h4>SVG</h4>
     <img style="max-width: 200px" src="/svg/logo.svg" /><br />
