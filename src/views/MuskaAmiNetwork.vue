@@ -42,7 +42,7 @@
           <tr>
             <td>900</td>
             <td>中国, 浙江-宁波</td>
-            <td>300M Upload / 300M Dload</td>
+            <td>800M Upload / 800M Dload</td>
             <td>IPv4 + IPv6</td>
             <td></td>
           </tr>
