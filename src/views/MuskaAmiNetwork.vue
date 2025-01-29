@@ -23,6 +23,7 @@
       <li>10.0.0.0/24 - by Muska-Ami@github</li>
       <li>10.10.0.0/16 - by Muska-Ami@github</li>
       <li>10.11.0.0/16 - by 114514-homo-lab@github</li>
+      <li>10.12.0.0/16 - by ltzXiaoYanMo@google</li>
     </ul>
     <h3>IPv6</h3>
     <p>Have no any route yet</p>
@@ -56,7 +57,7 @@
           <tr>
             <td>902</td>
             <td>中国香港 Hongkong</td>
-            <td>30M Upload / 30M Dload</td>
+            <td>200M Upload / 200M Dload</td>
             <td>IPv4</td>
             <td></td>
           </tr>
